@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/CVOvidiu/Forkify-App/issues"
   },
-  "homepage": "https://github.com/CVOvidiu/Forkify-App#readme"
+  "homepage": "https://github.com/CVOvidiu/Forkify-App#readme",
+  "dependencies": {
+    "parcel": "^2.8.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.1"
+  }
 }
