@@ -3,6 +3,7 @@ import icons from 'url:../../img/icons.svg'; // Parcel: Use the icons in the dis
 
 class AddRecipeView extends View {
   _parentElement = document.querySelector('.upload');
+  _msg = 'Recipe was successfully uploaded';
   _window = document.querySelector('.add-recipe-window');
   _overlay = document.querySelector('.overlay');
   _btnOpen = document.querySelector('.nav__btn--add-recipe');
